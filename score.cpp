@@ -12,12 +12,12 @@ class Score{
     }
     Score& operator ++(){  //pre
         score+=10;
-        return *this; // when we've used & this repp that we're returning the reference of the object that has envoked the function.
+        //return *this; // when we've used & this repp that we're returning the reference of the object that has envoked the function.
     }
     Score  operator ++(int){  //post
         Score temp=*this;  //assigning values(reference) of s1 to temp
         score+=10;
-        return temp;
+        //return temp;
     }
     void display()const{
         cout<<"score="<<score<<endl;

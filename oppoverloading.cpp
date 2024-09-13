@@ -11,11 +11,6 @@ class Space{
         y=b;
         z=c;
       }
-      /*void operator -(){
-        x=-x;
-        y=-y;
-        z=-z;
-      }*/
       Space operator -(Space temp){
         temp.x=x-temp.x; //x,y,z have s1 values and temp will have s1 values the can be accessed through . operator.
         temp.y=y-temp.y;

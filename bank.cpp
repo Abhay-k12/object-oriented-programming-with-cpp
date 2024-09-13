@@ -19,6 +19,7 @@ class Account{
          cout<<"Account Balance:"<<balance<<endl;
      }
 };
+
 class SavingAccount:public Account{
     public:
       SavingAccount(string accNumber,string accHoldername,float bal, float intRate, int pinCode):
@@ -35,6 +36,7 @@ class SavingAccount:public Account{
          cout<<"Account Balance:"<<balance<<endl;
      }
 };
+
 class CheckingAccount:protected Account{
     public:
       CheckingAccount(string accNumber,string accHoldername,float bal, float intRate, int pinCode):
@@ -52,6 +54,7 @@ class CheckingAccount:protected Account{
          cout<<"Account Balance:"<<balance<<endl;
      }
 };
+
 int main(){
     //creating an instance of saving account
     SavingAccount saving("SA12345","JOHN DOE", 1500.00,5.0,1234);
