@@ -1,3 +1,5 @@
+/*4. Write a C++ program to sort a given array of 0s, 1s and 2s. In the final array put all 
+0s first, then all 1s and all 2s in last*/
 #include <iostream>
 using namespace std;
 void input(int arr[],int size){
@@ -7,10 +9,10 @@ void input(int arr[],int size){
 void bubbleSort(int arr[], int size){
      for(int i=0;i<size;i++){
         for(int j=0;j<size-1;j++){
-            if(arr[i]>arr[i+1]){
-                int temp=arr[i];
-                arr[i]=arr[i+1];
-                arr[i+1]=temp;
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
             }
         }
      }
@@ -38,5 +40,8 @@ int main(){
     for(int i=0;i<size3;i++){
         cout<<ans[i]<<" ";
     }
+    cout<<"\n***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
     return 0;
 }

@@ -32,5 +32,8 @@ int main(){
     }
     cout<<cities[max_city]<<" has a maximum temperature of "<<arr[max_day][max_city]<<" on day "<<max_day+1<<endl;
     cout<<cities[min_city]<<" has a minimum temperature of "<<arr[min_day][min_city]<<" on day "<<min_day+1<<endl;
+    cout<<"***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
     return 0;
 }

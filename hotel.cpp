@@ -1,3 +1,10 @@
+/*Q16. Create a hotel room booking system where each room has attributes like room number, type (single/double), price, and availability status. The program should:
+ • Use a class Room to store room details.
+ • Use a pointer to a Room object to dynamically manage room records.
+ • Allow users to book a room, cancel a booking, and view available rooms.
+ • Ensure that a room cannot be double-booked.
+ • Display a summary of all rooms, including their booking status.
+*/
 #include<iostream>
 #include<string>
 using namespace std;
@@ -106,5 +113,8 @@ int main(){
                 cout<<"Invalid choice! please try again"<<endl;
         }
     }while(choice!=4);
-    return 0;
+    cout<<"***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
+    return 0;  
 }

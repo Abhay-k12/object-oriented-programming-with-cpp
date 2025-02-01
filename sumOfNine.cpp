@@ -10,5 +10,8 @@ int main(){
        val*=10;
     }
     cout<<"\nThe sum of the series="<<sum<<endl;
+    cout<<"***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
     return 0;
 }

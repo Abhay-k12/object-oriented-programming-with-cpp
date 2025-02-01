@@ -30,5 +30,8 @@ class DerivedProtected: protected Base{
 int main(){
     DerivedProtected ob;
     ob.accessBaseMember();
+    cout<<"***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
     return 0;
 }

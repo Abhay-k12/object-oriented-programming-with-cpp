@@ -42,5 +42,8 @@ class C:B{
 int main(){
     C ob1();
     C ob(7,8,9,10);
+    cout<<"***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
     return 0;
 }

@@ -33,5 +33,6 @@ int main(){
        }
     }
     cout<<"students scored more than anna:"<<count<<endl;
+    
     return 0;
 }

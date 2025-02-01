@@ -40,6 +40,9 @@ int main(){
     display(s2);
     cout<<"s3:";
     display(s3);
+    cout<<"***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
     return 0;
 }
 

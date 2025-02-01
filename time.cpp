@@ -1,3 +1,12 @@
+/*13. Create a class Time that represents a specific time of day using hours, minutes, and seconds as int data members. Implement the following: 
+1. Data Members:  Three int data members: hours, minutes, and seconds to store the time. 
+2. Constructors:  A default constructor that initializes the time to 00:00:00. 
+ A parameterized constructor that initializes the time to specific values provided by the user.
+ 3. Member Functions:  A function void display() that displays the time in the format HH:MM:SS. 
+ Overload the binary + operator as a member function or a friend function to add two Time objects. The result should be returned as a new Time object. 
+4. Main Function: o In the main() function, create three Time objects. Initialize the first two objects with specific values using the parameterized constructor. 
+Use the overloaded + operator to add the first two Time objects, and store the result in the third Time object.  Finally, display the time stored in the third object using the display() function.
+*/
 #include<iostream>
 #include<iomanip>
 using namespace std;
@@ -7,6 +16,11 @@ class Time{
     int min;
     int sec;
     public:
+    Time (){
+        this->hour=0;
+        this->min=0;
+        this->sec=0;
+    };
     Time(int hour,int min,int sec){
         this->hour=hour;
         this->min=min;
@@ -46,5 +60,8 @@ int main(){
     t3=t1+t2;
     cout<<"time 3= ";
     t3.display();
+    cout<<"***************************************************"<<endl;
+    cout<<"Program Preapred & Executed by: Abhay Kanojia     CSE(A1)    Class Roll no: 04"<<endl;
+    cout<<"***************************************************"<<endl;
     return 0;
 }
